@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using minimalAPIMongo.Domains;
+﻿using Microsoft.AspNetCore.Mvc;
 using minimalAPIMongo.Services;
 using minimalwebapimongodb.Domains;
 using MongoDB.Driver;

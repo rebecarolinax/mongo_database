@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("minimalwebapimongodb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8e6f28deaef379bdfa38a1c2ca6b7950d666ac5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34385c6c3b8b31f17f905d34a75d5ee59b9e11f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("minimalwebapimongodb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("minimalwebapimongodb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
