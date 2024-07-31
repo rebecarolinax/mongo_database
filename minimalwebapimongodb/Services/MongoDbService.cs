@@ -4,33 +4,40 @@ namespace minimalAPIMongo.Services
 {
     public class MongoDbService
     {
-        // armazena a configuração da aplicação
+        /// <summary>
+        /// armazena a config da aplicação
+        /// </summary>
         private readonly IConfiguration _configuration;
 
-        // armazena uma ref ao MongoDB
+
+        /// <summary>
+        /// armazena referência ao MongoDb
+        /// </summary>
         private readonly IMongoDatabase _database;
 
-        // contém a configuração necessária para acesso ao MongoDB
+        /// <summary>
+        /// recebe a config da aplicação com parâmetro
+        /// </summary>
+        /// <param name="configuration">obj configuration</param>
         public MongoDbService(IConfiguration configuration)
         {
-            // atribui a configuração em _configuration
+            //atribui a config recebida em _configuration
             _configuration = configuration;
 
-            // acessa a string de conexão
+
+            //obtêm a string de conexão através do _configuration
             var connectionString = _configuration.GetConnectionString("DbConnection");
 
-            // transforma a string obtida em MongoURL
+            //cria um obj MongoUrl que recebe como pârametro a string de conexão
             var mongoUrl = MongoUrl.Create(connectionString);
 
-            // cria um client
+            //cria um client MongoClient para se conectar ao MongoDb
             var mongoClient = new MongoClient(mongoUrl);
 
-            // obtém a ref ao MongoDB
+            //obtêm o nome ao bd com o nom eespecificado na string de conexão
             _database = mongoClient.GetDatabase(mongoUrl.DatabaseName);
         }
 
-        // propriedade para acessar o banco de dados => retorna os dados em _database
         public IMongoDatabase GetDatabase => _database;
-
     }
 }

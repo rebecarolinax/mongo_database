@@ -1,105 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|c:\\users\\54931473865\\desktop\\mongo_database\\minimalwebapimongodb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|c:\\users\\54931473865\\desktop\\mongo_database\\minimalwebapimongodb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|c:\\users\\54931473865\\desktop\\mongo_database\\minimalwebapimongodb\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|c:\\users\\54931473865\\desktop\\mongo_database\\minimalwebapimongodb\\domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|solutionrelative:domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|c:\\users\\54931473865\\desktop\\mongo_database\\minimalwebapimongodb\\domains\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C9340E-5F49-438F-9130-A23C4060F31A}|minimalwebapimongodb.csproj|solutionrelative:domains\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\54931473865\\Desktop\\Minimal-API\\minimalAPIMongo\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAA9wHEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T20:18:34.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T20:04:51.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Domains\\Order.cs",
-              "RelativeDocumentMoniker": "Domains\\Order.cs",
-              "ToolTip": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Domains\\Order.cs",
-              "RelativeToolTip": "Domains\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T19:56:03.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Domains\\Client.cs",
-              "RelativeDocumentMoniker": "Domains\\Client.cs",
-              "ToolTip": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Domains\\Client.cs",
-              "RelativeToolTip": "Domains\\Client.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T19:56:01.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\54931473865\\Desktop\\mongo_database\\minimalwebapimongodb\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwGQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T19:09:54.199Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

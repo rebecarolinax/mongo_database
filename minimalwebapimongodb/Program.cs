@@ -2,15 +2,13 @@ using Microsoft.OpenApi.Models;
 using minimalAPIMongo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Dependence Injection class MongoDbService
 builder.Services.AddSingleton<MongoDbService>();
-
-
 
 // Cors
 builder.Services.AddCors(options =>
@@ -31,7 +29,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "API Minimal with MongoDB",
+        Title = "API Minimal with MongoDb",
         Description = "Backend API",
         Contact = new OpenApiContact
         {
